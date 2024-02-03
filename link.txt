@@ -1,0 +1,17 @@
++ new feature v17:
+    https://www.youtube.com/watch?v=GhNcPbm8w0k
+
++ ssr v17:
+    https://www.youtube.com/watch?v=4KH-TStaiGw
+
++ Angular Server Side Rendering | Angular SSR | Angular Universal
+    https://www.youtube.com/watch?v=6LmnC8Y_HZI&t=51s
+
++ Signals, Standalone Components, Control Flow & more - new in Angular 17!:
+    https://www.youtube.com/watch?v=KGgZqGLNhpA
+
++ Vite and esbuild:
+    https://www.youtube.com/watch?v=f_-kxARj6fo
+
++ Change Detection in Angular
+    https://www.youtube.com/watch?v=-tB-QDrPmuI&t=329s
