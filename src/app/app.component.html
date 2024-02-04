@@ -1,2 +1,38 @@
 <h1>Welcome Angular 17</h1>
+<!-- for loop -->
+@for(user of users(); track $index) {
+<div>{{ user.name }}</div>
+} @empty {
+<div>We don't have anything</div>
+}
+
+<!-- If Statement -->
+@if (user.role==='developer') {
+<div>Developer</div>
+} @else if (user.role==='admin') {
+<div>Admin</div>
+} @else {
+<div>QA</div>
+}
+
+<!-- Switch -->
+@switch (user.role) { @case ('developer') {
+<div>Developer</div>
+} @case ('admin') {
+<div>Admin</div>
+} @case ('developer') {
+<div>Developer</div>
+} }
+
+<!-- defer (on viewport)-->
+@defer () {
+<app-defer />
+} @loading (after 1s; minimum 10s){
+<app-loading />
+} @placeholder (minimum 150ms){
+<app-placeholder />
+} @error {
+<app-error />
+}
+
 <router-outlet></router-outlet>
